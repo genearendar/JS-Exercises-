@@ -42,4 +42,3 @@ function toRgb(str) {
   const resultArr = arr.map((val) => parseInt(val, 16))
   return "rgb(" + resultArr.join(",") + ")"
 }
-//hello
